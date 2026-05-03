@@ -50,13 +50,13 @@ Alternatively, download the CSV manually from the Kaggle page above.
 
 The notebook is organised into self-contained sections:
 
-1. **Setup & Imports** — package installation and global helpers
-2. **Data Loading & Cleaning** — null handling, title+body merge, regex normalisation
-3. **Exploratory Data Analysis** — class distribution, post length, VADER sentiment, per-class word clouds
-4. **Baseline Model** — TF-IDF (1–2 grams, 30k vocab) + Logistic Regression, 5-fold stratified CV
-5. **Random Forest** — TF-IDF (10k vocab) + 300-tree RF, with Gini feature-importance analysis
-6. **DistilBERT Fine-Tuning** *(CS590 extension)* — `distilbert-base-uncased`, AdamW, 3 epochs, max_length 256
-7. **SHAP Explainability** *(CS590 extension)* — per-class feature attribution on the Logistic Regression model
+1. **Setup & Imports** : package installation and global helpers
+2. **Data Loading & Cleaning** : null handling, title+body merge, regex normalisation
+3. **Exploratory Data Analysis** : class distribution, post length, VADER sentiment, per-class word clouds
+4. **Baseline Model** : TF-IDF (1–2 grams, 30k vocab) + Logistic Regression, 5-fold stratified CV
+5. **Random Forest** : TF-IDF (10k vocab) + 300-tree RF, with Gini feature-importance analysis
+6. **DistilBERT Fine-Tuning** *(CS590 extension)* : `distilbert-base-uncased`, AdamW, 3 epochs, max_length 256
+7. **SHAP Explainability** *(CS590 extension)* : per-class feature attribution on the Logistic Regression model
 8. **Results Summary & Conclusions**
 
 ## Reproducing the Results
