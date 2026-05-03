@@ -41,9 +41,9 @@ Alternatively, download the CSV manually from the Kaggle page above.
 
 ```
 .
-├── AshaShah_CS590_Capstone.ipynb   # Main notebook (all code, EDA, models, SHAP)
-├── README.md                       # This file
-└── Images from code                # Final written report (4–7 pages)
+├── AshaShah_CS590_Capstone.ipynb   
+├── README.md                       
+└── Images from code                
 ```
 
 ## Methodology
